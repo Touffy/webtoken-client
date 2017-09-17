@@ -1,0 +1,14 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "outDir": "types",
+    "baseUrl": "src",
+    "sourceMap": false,
+    "declaration": true,
+    "moduleResolution": "node",
+    "target": "es2017"
+  },
+  "files": [
+    "src/JWTParser.ts"
+  ]
+}

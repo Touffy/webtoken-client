@@ -1,0 +1,26 @@
+{
+  "name": "jwt-client",
+  "version": "1.0.0",
+  "description": "Validate JWT tokens on the client-side, using the native Web Crypto API for signature verification",
+  "main": "JWTParser.js",
+  "dependencies": {},
+  "devDependencies": {
+    "rollup": "^0.50.0",
+    "typescript": "^2.5.2",
+    "uglify-es": "^3.1.1"
+  },
+  "scripts": {
+    "start": "tsc && npm run rollup && npm run uglify && npm run clean",
+    "rollup": "rollup types/JWTParser.js --o JWTParser.js --f iife --name \"JWTParser\"",
+    "uglify": "uglifyjs JWTParser.js -o JWTParser.min.js -cm --mangle-props regex='/_.*/' --ecma 7",
+    "clean": "mv types/JWTParser.d.ts ./ && rm -Rf types"
+  },
+  "keywords": [
+    "jwt",
+    "jwk",
+    "crypto",
+    "oauth"
+  ],
+  "author": "David Junger <tffy@free.fr>",
+  "license": "MIT"
+}
