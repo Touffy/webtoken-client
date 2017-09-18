@@ -1,5 +1,5 @@
 {
-  "name": "jwt-client",
+  "name": "webtoken-client",
   "version": "1.0.0",
   "description": "Validate JWT tokens on the client-side, using the native Web Crypto API for signature verification",
   "main": "JWTParser.js",
@@ -25,10 +25,10 @@
   "license": "X11",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Touffy/jwt-client.git"
+    "url": "git+ssh://git@github.com/Touffy/webtoken-client.git"
   },
   "bugs": {
-    "url": "https://github.com/Touffy/jwt-client/issues"
+    "url": "https://github.com/Touffy/webtoken-client/issues"
   },
-  "homepage": "https://github.com/Touffy/jwt-client#readme"
+  "homepage": "https://github.com/Touffy/webtoken-client#readme"
 }

@@ -2,12 +2,12 @@
 
 Decode and validate [JSON Web Tokens](https://tools.ietf.org/html/rfc7519) (JWT) on the client-side, using the native [Web Crypto API](https://www.w3.org/TR/WebCryptoAPI/#subtlecrypto-interface) for JWS signature verification.
 
-jwt-client is only 5kB minified and has no dependencies.
+webtoken-client is only 5kB minified and has no dependencies.
 
 ## Getting started
 
 ```
-npm install jwt-client
+npm install webtoken-client
 ```
 
 ```javascript
@@ -62,7 +62,7 @@ Anyway, **none of those options can be changed after instantiating the parser**.
 
 *tl;dr: it works on modern browsers over HTTPS, stick to RSA or HMAC signatures for now.*
 
-jwt-client relies on the Web Crypto API in modern browsers to do its job much faster, with much less code, and with better security, than what can be accomplished with JavaScript cryptographic libraries.
+webtoken-client relies on the Web Crypto API in modern browsers to do its job much faster, with much less code, and with better security, than what can be accomplished with JavaScript cryptographic libraries.
 
 Therefore, you can forget running it in node.js, or Internet Explorer. Also, the API is only exposed on HTTPS pages in some browsers, so testing on localhost may require some adjustments.
 
@@ -72,6 +72,6 @@ Since it was going to require modern browsers anyway, I went forward and picked 
 
 ## License and credits
 
-jwt-client is distributed under the [X11 license](http://www.gnu.org/licenses/license-list.html#X11License).
+webtoken-client is distributed under the [X11 license](http://www.gnu.org/licenses/license-list.html#X11License).
 
 This was developped in part during my work hours at STIME — Les Mousquetaires. That is why there is a version of this documentation in French.
