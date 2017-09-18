@@ -22,5 +22,13 @@
     "oauth"
   ],
   "author": "David Junger <tffy@free.fr>",
-  "license": "MIT"
+  "license": "X11",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Touffy/jwt-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Touffy/jwt-client/issues"
+  },
+  "homepage": "https://github.com/Touffy/jwt-client#readme"
 }
